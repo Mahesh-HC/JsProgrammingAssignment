@@ -18,7 +18,5 @@ else  // if the roots are not real
 {
   realpart= (-b/(2 * a)).toFixed(2)
   imagpart= (Math.sqrt(-discriminant)/(2 * a)).toFixed(2)
-  //root1= realpart imagpart +"i"
-  //root2=realpart-imagpart+"i"
   console.log("the roots are root1 is", realpart,'+', imagpart,'i' ,"and root2 is", realpart,'-', imagpart,'i');
 }
