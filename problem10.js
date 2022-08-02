@@ -1,3 +1,4 @@
+
 var numbers= new Array(6)  // getting array from user
 for (i=0;i<6;i++)
 {
@@ -5,7 +6,7 @@ for (i=0;i<6;i++)
 }
 console.log(numbers)
 console.log(evenarray(numbers))
-function evenarray (array)   // sorting even positioned elements
+function evenarray (array)   // geting even positioned elements
 {
   let arr=[]
   for (i=0;i<array.length;i++)

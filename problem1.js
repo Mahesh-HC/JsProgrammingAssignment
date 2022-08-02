@@ -1,3 +1,5 @@
+// to find factorial of a number
+
 var number=parseInt(prompt("Enter the number"));  // to get integer value
 if (number==0)   // to check number is zero
 {
